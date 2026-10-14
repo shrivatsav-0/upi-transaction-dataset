@@ -1,0 +1,19 @@
+[project]
+name = "upi-ss-gen"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Shrivatsav", email = "246478990+shrivatsav-0@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pillow>=12.3.0",
+]
+
+[project.scripts]
+upi-ss-gen = "upi_ss_gen:main"
+
+[build-system]
+requires = ["uv_build>=0.12.22,<0.13.0"]
+build-backend = "uv_build"
